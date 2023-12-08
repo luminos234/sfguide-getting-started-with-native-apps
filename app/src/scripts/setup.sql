@@ -35,7 +35,7 @@ language python
 runtime_version = '3.8'
 packages = ('snowflake-snowpark-python')
 imports = ('/libraries/udf.py')
-handler = 'udf.hello_world'
+handler = 'udf.hello_world';
 
 -- Create Stored Procedure
 create or replace procedure app_instance_schema.billing_event(number_of_rows int)
