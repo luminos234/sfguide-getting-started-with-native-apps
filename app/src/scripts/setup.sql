@@ -73,3 +73,5 @@ grant usage on function app_instance_schema.cal_distance(float,float,float,float
 grant SELECT on view app_instance_schema.MFG_SHIPPING to application role app_instance_role;
 grant usage on streamlit app_instance_schema.streamlit to application role app_instance_role;
 grant usage on procedure app_instance_schema.update_reference(string, string, string) to application role app_instance_role;
+
+grant usage on function  app_instance_schema.hello_world() to application role app_instance_role;
